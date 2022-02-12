@@ -22,11 +22,50 @@ body{
     position: relative;
     width: 5vw;
     height: 5vw;
-    background: url(./img/photo.jpg);
+    background: url(./img/photo_2022-02-12_14-18-42.jpg);
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     transform-style: preserve-3d;
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
     box-sizing: border-box;
     
+}
+
+
+@media (max-width: 520px) {
+   .container{
+       height: 100vh;
+
+   }
+
+   .container .block{
+    width: 25px;
+    height: 25px;
+}
+}
+
+
+@media (max-width: 420px) {
+    .container{
+        width: 100%;
+        height: 1000px;
+    }
+
+    .container .block{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container{
+        width: 100%;
+        height: 1000px;
+    }
+
+    .container .block{
+        width: 40px;
+        height: 40px;
+    }
 }
