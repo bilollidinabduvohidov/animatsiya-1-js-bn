@@ -22,12 +22,12 @@ body{
     position: relative;
     width: 5vw;
     height: 5vw;
-    background: url(./img/photo_2022-02-12_14-18-42.jpg);
+    background: url(./img/photo.jpg);
     background-size: cover;
-    background-position: center;
+    /* background-position: center;  */
     background-attachment: fixed;
     transform-style: preserve-3d;
-    border: 1px solid #000;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     
 }
